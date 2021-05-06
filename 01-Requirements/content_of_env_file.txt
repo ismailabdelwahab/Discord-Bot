@@ -1,0 +1,5 @@
+"BOT_NAME" 
+	is the name of the bot (this is used by the message listener)
+
+"DISCORD_TOKEN" 
+	is the bot's token.
