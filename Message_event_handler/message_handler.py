@@ -2,12 +2,28 @@
 from bot_loader import bot
 from env import BOT_NAME
 
+# Importing data related to human users on our server
+from data_loader import human_users
+
 @bot.event
-async def on_message(message):
-	if message.author == bot.user:
-		return # Do not lister to messages sent by the bot itself.
-	if message.content == f"{BOT_NAME} test":
-		await message.channel.send("> Test functionality is working. (uses the on_message listener)")
-		
+async def on_message(msg):
+	if msg.author == bot.user:
+		return # Do not lister to msgs sent by the bot itself.
+	if msg.content == f"{BOT_NAME} test":
+		await msg.channel.send("> Test functionality is working. (uses the on_msg listener)")
+	
+	#################### REACTIONS ###########################
+	for human in human_users:
+		await react_to_names_in_msg( human["names"], human["user_id"], msg, human["emote"] )
+	##########################################################
+
     # Allow the usage of commands while using this listener :
-	await bot.process_commands(message)
+	await bot.process_commands(msg)
+
+
+async def react_to_names_in_msg( names, user_id, msg, reaction):
+	if user_id in msg.content:
+		await msg.add_reaction(reaction); return
+	for name in names:
+		if name in msg.content.lower():
+			await msg.add_reaction(reaction); return

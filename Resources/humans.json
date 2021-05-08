@@ -1,0 +1,43 @@
+{
+	"ADRIEN":{
+		"user_id":"<@!694105445475942400>",
+		"names":["adrien", "adri", "mroclutch", "el jirafa"],
+		"emote":"<:Adrien:828964903120928828>"
+	},
+
+	"AHMED":{
+		"user_id":"<@!694088285466787971>",
+		"names":["ahmed", "hmidoudou", "tozitron", "toziton", "le bot"],
+		"emote":"<:Ahmed:831205760222232576>"
+	},
+
+	"AMINE":{
+		"user_id":"<@231823031347970048>",
+		"names":["amine", "triphenylphosphine", "linda noris"],
+		"emote":"<:Amine:830819862846767155>"
+	},
+
+	"ISMAIL":{
+		"user_id":"<@!267625897115254795>",
+		"names":["isma", "ismail", "ismaïl", "xis", "xismaw"],
+		"emote":"<:Isma:805529460094402600>"
+	},
+
+	"KHALED":{
+		"user_id":"<@!772939425231273995>",
+		"names":["khaled", "mze", "mzee", "mzé", "mzée"],
+		"emote":"<:Khaled:805530564601184276>"
+	},
+
+	"SALIM":{
+		"user_id":"<@!267649357803683840> ",
+		"names":["salim", "jak", "jak the adventurer", "staardust"],
+		"emote":"<:Salim:805529984823197696>"
+	},
+
+	"TANGUY":{
+		"user_id":"<@!290063424883523584>",
+		"names":["tanguy", "guytou", "la gyt", "la tang"],
+		"emote":"<:Tanguy:830822414917042207>"
+	}
+}
