@@ -9,6 +9,7 @@ from env import DISCORD_TOKEN, BOT_NAME
 import Commands.Ping.ping
 import Commands.Dice.dice
 import Commands.Sapin.sapin
+import Commands.Translate.translate
 #####################################
 
 ### TODO: HANDLE UNEXISTING COMMAND ????
