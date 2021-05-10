@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-from bot_loader import bot
-from env import BOT_NAME
+from Loader.bot_loader import bot
+from Loader.env_loader import BOT_NAME
 
 # Importing data related to human users on our server
-from data_loader import human_users
+from Loader.data_loader import human_users
 
 @bot.event
 async def on_message(msg):

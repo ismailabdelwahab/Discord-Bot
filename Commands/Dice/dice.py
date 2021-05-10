@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from bot_loader import bot
+from Loader.bot_loader import bot
 
 from random import randint
 

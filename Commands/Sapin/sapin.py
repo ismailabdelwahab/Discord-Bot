@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from bot_loader import STARTING_CHAR, bot
+from Loader.bot_loader import STARTING_CHAR, bot
 
 
 CHRISTMAS_TREE_GIF = "https://tenor.com/view/fk-this-i-quit-nope-i-cant-christmas-tree-gif-14498008"

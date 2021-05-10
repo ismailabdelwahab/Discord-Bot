@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
 # Bot related variables :
-from bot_loader import STARTING_CHAR, bot
+from Loader.bot_loader import STARTING_CHAR, bot
 # Env File variables :
-from env import DISCORD_TOKEN, BOT_NAME
+from Loader.env_loader import DISCORD_TOKEN, BOT_NAME
 
 ###### Importing Bot's commands #####
 import Commands.Ping.ping

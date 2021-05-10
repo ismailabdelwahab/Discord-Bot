@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from bot_loader import STARTING_CHAR, bot
+from Loader.bot_loader import STARTING_CHAR, bot
 
 @bot.command(
 	name="ping",

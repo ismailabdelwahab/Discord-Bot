@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-from bot_loader import bot
-from emoji_loader import EMOJI_FORBIDEN
+from Loader.bot_loader import bot
+from Loader.emoji_loader import EMOJI_FORBIDEN
 
 import requests
 import json

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-from bot_loader import bot
-from emoji_loader import EMOJI_FORBIDEN
+from Loader.bot_loader import bot
+from Loader.emoji_loader import EMOJI_FORBIDEN
 
 from Tools.Hashers.hashers import HASH_MD5, HASH_SHA1, HASH_SHA256
 
