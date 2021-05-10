@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 from bot_loader import STARTING_CHAR, bot
 
+
+CHRISTMAS_TREE_GIF = "https://tenor.com/view/fk-this-i-quit-nope-i-cant-christmas-tree-gif-14498008"
+
 @bot.command(
 	name="sapin",
 	help=f"Just enter \"{STARTING_CHAR}sapin\" or\n\
@@ -17,4 +20,4 @@ async def sapin(ctx, *args):
 			answer += f" {arg}"
 		answer += "**."
 	await ctx.channel.send( answer )
-	await ctx.channel.send("https://tenor.com/view/fk-this-i-quit-nope-i-cant-christmas-tree-gif-14498008")
+	await ctx.channel.send( CHRISTMAS_TREE_GIF )
