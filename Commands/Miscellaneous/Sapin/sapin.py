@@ -11,7 +11,7 @@ CHRISTMAS_TREE_GIF = "https://tenor.com/view/fk-this-i-quit-nope-i-cant-christma
 	brief="Let the bot throw a christmas tree in the chat."
 )
 async def sapin(ctx, *args):
-	answer = f"> **{ctx.message.author.name}** is throwing a christams tree"
+	answer = f"> **{ctx.message.author.name}** is throwing a christmas tree"
 	if args == (): # No args given
 		answer += "."
 	else:
