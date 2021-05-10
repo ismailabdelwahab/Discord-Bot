@@ -6,11 +6,17 @@ from Loader.bot_loader import STARTING_CHAR, bot
 from Loader.env_loader import DISCORD_TOKEN, BOT_NAME
 
 ###### Importing Bot's commands #####
-import Commands.Ping.ping
+# Others:
 import Commands.Dice.dice
-import Commands.Sapin.sapin
-import Commands.Translate.translate
 import Commands.Hash.hash
+
+# Language folder :
+import Commands.Language.Translate.translate
+
+# Miscellaneous folder :
+import Commands.Miscellaneous.Ping.ping
+import Commands.Miscellaneous.Sapin.sapin
+
 #####################################
 
 ### TODO: HANDLE UNEXISTING COMMAND ????
