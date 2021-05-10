@@ -10,6 +10,7 @@ import Commands.Ping.ping
 import Commands.Dice.dice
 import Commands.Sapin.sapin
 import Commands.Translate.translate
+import Commands.Hash.hash
 #####################################
 
 ### TODO: HANDLE UNEXISTING COMMAND ????
