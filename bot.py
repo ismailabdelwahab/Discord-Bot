@@ -16,6 +16,7 @@ import Commands.Language.Translate.translate
 # Miscellaneous folder :
 import Commands.Miscellaneous.Ping.ping
 import Commands.Miscellaneous.Sapin.sapin
+import Commands.Miscellaneous.Poiro.opiremangemoilepoiro
 
 #####################################
 
