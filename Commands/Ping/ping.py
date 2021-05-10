@@ -7,4 +7,4 @@ from bot_loader import STARTING_CHAR, bot
 	brief="Prints pong back to the channel, along with the bot's latency."
 )
 async def ping(ctx):
-	await ctx.channel.send(f"> Pong! Lantency : {round(bot.latency*1000,2)} ms.")
+	await ctx.channel.send(f"> Pong! Latency : {round(bot.latency*1000,2)} ms.")
