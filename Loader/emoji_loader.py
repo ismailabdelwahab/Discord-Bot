@@ -9,6 +9,7 @@ EMOJI_SUCCESS = ":white_check_mark:"
 # Characters :
 EMOJI_SKULL = ":skull:"
 EMOJI_CLOWN = ":clown:"
+EMOJI_CLOWN_UNICODE = "\U0001F921"
 
 # Flags :	
 FALG_FR = ":flag_fr:"
