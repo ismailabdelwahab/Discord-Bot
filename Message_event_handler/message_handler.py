@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
+import discord
 from Loader.bot_loader import bot
 from Loader.env_loader import BOT_NAME
-from Loader.emoji_loader import EMOJI_CLOWN
+from Loader.emoji_loader import EMOJI_CLOWN_UNICODE
 
 # Importing data related to human users on our server
 from Loader.data_loader import human_users
@@ -20,7 +21,8 @@ async def on_message(msg):
 
 	# Neymar
 	if "neymar" in msg.content.lower():
-		await msg.add_reaction(EMOJI_CLOWN); return
+		await msg.add_reaction( EMOJI_CLOWN_UNICODE );
+		
 	##########################################################
 
     # Allow the usage of commands while using this listener :
