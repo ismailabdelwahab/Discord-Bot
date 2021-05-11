@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from Loader.bot_loader import bot
 from Loader.env_loader import BOT_NAME
+from Loader.emoji_loader import EMOJI_CLOWN
 
 # Importing data related to human users on our server
 from Loader.data_loader import human_users
@@ -13,8 +14,13 @@ async def on_message(msg):
 		await msg.channel.send("> Test functionality is working. (uses the on_msg listener)")
 	
 	#################### REACTIONS ###########################
+	# Human users
 	for human in human_users:
 		await react_to_names_in_msg( human["names"], human["user_id"], msg, human["emote"] )
+
+	# Neymar
+	if "neymar" in msg.content.lower():
+		await msg.add_reaction(EMOJI_CLOWN); return
 	##########################################################
 
     # Allow the usage of commands while using this listener :
