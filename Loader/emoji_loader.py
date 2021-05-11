@@ -8,6 +8,7 @@ EMOJI_SUCCESS = ":white_check_mark:"
 
 # Characters :
 EMOJI_SKULL = ":skull:"
+EMOJI_CLOWN = ":clown:"
 
 # Flags :	
 FALG_FR = ":flag_fr:"
