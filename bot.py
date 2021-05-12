@@ -9,6 +9,7 @@ from Loader.env_loader import DISCORD_TOKEN, BOT_NAME
 
 # Language folder :
 import Commands.Language.Translate.translate
+import Commands.Language.Alphabet.alphabet
 
 # Miscellaneous folder :
 import Commands.Miscellaneous.Dice.dice

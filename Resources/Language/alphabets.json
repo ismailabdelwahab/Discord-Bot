@@ -1,0 +1,229 @@
+{
+"ar":{
+	"أ":{
+			"prononciation":"a",
+			"like-in":"**a**pple :apple:",
+			"comment":""
+		},
+	"ب":{
+			"prononciation":"b",
+			"like-in":"**b**anana :banana:",
+			"comment":""
+		},
+	"ت":{
+			"prononciation":"t",
+			"like-in":"**t**axi :taxi:",
+			"comment":"Letter's name: TA"
+		},
+	"ث":{
+			"prononciation":"th",
+			"like-in":"**s**nake :snake:",
+			"comment":""
+		},
+	"ج":{
+			"prononciation":"j",
+			"like-in":"**j**oker :black_joker: ",
+			"comment":""
+		}, 
+	"ح":{
+			"prononciation":"h",
+			"like-in":"**ha**m :meat_on_bone: ",
+			"comment":""
+		},  
+	"خ":{
+			"prononciation":"kh",
+			"like-in":"",
+			"comment":"This sound does not exist in english"
+		}, 
+	"د":{
+			"prononciation":"d",
+			"like-in":"**d**olphin :dolphin:",
+			"comment":"Letter's name : DAL"
+		}, 
+	"ذ":{
+			"prononciation":"Between dh/z",
+			"like-in":"**dzel**",
+			"comment":"Letter's name: DHAL"
+		}, 
+	"ر":{
+			"prononciation":"r",
+			"like-in":"**r**abbit :rabbit:",
+			"comment":""
+		}, 
+	"ز":{
+			"prononciation":"z",
+			"like-in":"**z**ebra :zebra:",
+			"comment":""
+		}, 
+	"س":{
+			"prononciation":"s",
+			"like-in":"**s**alad :salad:",
+			"comment":"Letter's name : SIN"
+		},  
+	"ش":{
+			"prononciation":"ch",
+			"like-in":"mat**ch** :soccer:",
+			"comment":""
+		},
+	"ص":{
+			"prononciation":"s",
+			"like-in":"~**s**alad :salad:",
+			"comment":"Letter's name : SAD, deeper \"s\" than \"س\"."
+		}, 
+	"ض":{
+			"prononciation":"d",
+			"like-in":"~**d**olphin :dolphin:",
+			"comment":"Letter's name : DAD, deeper \"d\" than \"د\"."
+		},
+	"ط":{
+			"prononciation":"t",
+			"like-in":"~**t**omato :tomato:",
+			"comment":"Letter's name : TAA, deeper \"t\" than \"ت\"."
+		}, 
+	"ظ":{
+			"prononciation":"dh",
+			"like-in":"",
+			"comment":"Letter's name : DHA."
+		}, 
+	"ع":{
+			"prononciation":"",
+			"like-in":"",
+			"comment":"Sound often translated with \"3\""
+		}, 
+	"غ":{
+			"prononciation":"gh",
+			"like-in":"",
+			"comment":"Sound does not exist in english"
+		}, 
+	"ف":{
+			"prononciation":"f",
+			"like-in":"**f**rog :frog:",
+			"comment":""
+		}, 
+	"ق":{
+			"prononciation":"k",
+			"like-in":"**k**oala ::koala:",
+			"comment":"Deeper than \"ك\"."
+		},
+	"ك":{
+			"prononciation":"k",
+			"like-in":"**k**angaroo :kangaroo:",
+			"comment":"Like an open \"k\"."
+		},
+	"ل":{
+			"prononciation":"l",
+			"like-in":"**l**izard :lizard: ",
+			"comment":""
+		},
+	"م":{
+			"prononciation":"m",
+			"like-in":"**m**onkey <:Amine:830819862846767155> ",
+			"comment":""
+		},
+	"ن":{
+			"prononciation":"n",
+			"like-in":"**n**inja :ninja:  ",
+			"comment":""
+		},
+	"ه":{
+			"prononciation":"h",
+			"like-in":"**h**am :meat_on_bone:",
+			"comment":"(could not find a better emote :/)"
+		},
+	"و":{
+			"prononciation":"wa",
+			"like-in":"**wa**ffle :waffle:",
+			"comment":""
+		},
+	"ي":{
+			"prononciation":"ya",
+			"like-in":"**ya**rn :yarn:",
+			"comment":""
+		}
+},
+"ko":{
+	"ㅏ":"a", 
+	"ㅑ":"ya", 
+	"ㅘ":"wa",
+
+	"ㅓ":"eo", 
+	"ㅕ":"yeo",
+	"ㅝ":"weo",
+
+	"ㅗ":"o", 
+	"ㅛ":"yo",
+	
+	"ㅜ":"ou", 
+	"ㅠ":"you",
+	
+	"ㅡ":"eu",
+	"ㅣ":"i",
+	"ㅚ":"wè",
+	"ㅟ":"wi",
+
+	"ㅢ":"eui",
+
+	"ㅐ":"è", 
+	"ㅒ":"yè", 
+	"ㅙ":"wè",
+
+	"ㅔ":"è", 
+	"ㅖ":"yè", 
+	"ㅞ": "wè",
+	
+	"ᄀ":"g",
+	"ᄁ":"k",
+	"ᄏ":"k",
+	"ᄂ":"n",
+	"ᄃ":"d,t", 
+	"ᄄ":"tt", 
+	"ᄐ":"tch",
+	"ㄹ":"r,l",
+	"ㅁ":"m",
+	"ㅂ":"b", 
+	"ㅃ":"pp", 
+	"ㅍ":"p",
+	"ㅅ":"s", 
+	"ㅆ":"ss",
+	"ㅇ":"No sound, ng",
+	"ㅈ":"j", 
+	"ㅉ":"jj", 
+	"ㅊ":"ch",
+	"ㅎ":"h"
+},
+"ru":{
+	"А":"a",
+	"Б":"b",
+	"В":"v",
+	"Г":"g",
+	"Д":"d",
+	"Е":"ye",
+	"Ё":"yo",
+	"Ж":"j",
+	"З":"z",
+	"И":"i",
+	"Й":"ye",
+	"К":"k",
+	"Л":"l",
+	"М":"m",
+	"Н":"n",
+	"О":"o",
+	"П":"p",
+	"Р":"r",
+	"С":"s",
+	"Т":"t",
+	"У":"ou",
+	"Ф":"f",
+	"Х":"kh",
+	"Ц":"ts",
+	"Ч":"ch",
+	"Ш":"sh",
+	"Щ":"tsh",
+	"Ъ":"hard sign",
+	"Ы":"i",
+	"Ь":"soft sign",
+	"Э":"è",
+	"Ю":"yu",
+	"Я":"ya"
+}
+}
