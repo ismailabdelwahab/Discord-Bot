@@ -6,14 +6,13 @@ from Loader.bot_loader import STARTING_CHAR, bot
 from Loader.env_loader import DISCORD_TOKEN, BOT_NAME
 
 ###### Importing Bot's commands #####
-# Others:
-import Commands.Dice.dice
-import Commands.Hash.hash
 
 # Language folder :
 import Commands.Language.Translate.translate
 
 # Miscellaneous folder :
+import Commands.Miscellaneous.Dice.dice
+import Commands.Miscellaneous.Hash.hash
 import Commands.Miscellaneous.Ping.ping
 import Commands.Miscellaneous.Sapin.sapin
 import Commands.Miscellaneous.Poiro.opiremangemoilepoiro
