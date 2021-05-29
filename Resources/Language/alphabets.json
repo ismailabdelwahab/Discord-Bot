@@ -2,32 +2,32 @@
 "ar":{
 	"أ":{
 			"prononciation":"a",
-			"like-in":"**a**pple :apple:",
+			"like-in":"apple",
 			"comment":""
 		},
 	"ب":{
 			"prononciation":"b",
-			"like-in":"**b**anana :banana:",
+			"like-in":"banana",
 			"comment":""
 		},
 	"ت":{
 			"prononciation":"t",
-			"like-in":"**t**axi :taxi:",
+			"like-in":"taxi",
 			"comment":"Letter's name: TA"
 		},
 	"ث":{
 			"prononciation":"th",
-			"like-in":"**s**nake :snake:",
+			"like-in":"snake",
 			"comment":""
 		},
 	"ج":{
 			"prononciation":"j",
-			"like-in":"**j**oker :black_joker: ",
+			"like-in":"joker ",
 			"comment":""
 		}, 
 	"ح":{
 			"prononciation":"h",
-			"like-in":"**ha**m :meat_on_bone: ",
+			"like-in":"ham ",
 			"comment":""
 		},  
 	"خ":{
@@ -37,47 +37,47 @@
 		}, 
 	"د":{
 			"prononciation":"d",
-			"like-in":"**d**olphin :dolphin:",
+			"like-in":"dolphin",
 			"comment":"Letter's name : DAL"
 		}, 
 	"ذ":{
 			"prononciation":"Between dh/z",
-			"like-in":"**dzel**",
+			"like-in":"dzel",
 			"comment":"Letter's name: DHAL"
 		}, 
 	"ر":{
 			"prononciation":"r",
-			"like-in":"**r**abbit :rabbit:",
+			"like-in":"rabbit",
 			"comment":""
 		}, 
 	"ز":{
 			"prononciation":"z",
-			"like-in":"**z**ebra :zebra:",
+			"like-in":"zebra",
 			"comment":""
 		}, 
 	"س":{
 			"prononciation":"s",
-			"like-in":"**s**alad :salad:",
+			"like-in":"salad",
 			"comment":"Letter's name : SIN"
 		},  
 	"ش":{
 			"prononciation":"ch",
-			"like-in":"mat**ch** :soccer:",
+			"like-in":"match",
 			"comment":""
 		},
 	"ص":{
 			"prononciation":"s",
-			"like-in":"~**s**alad :salad:",
+			"like-in":"~salad",
 			"comment":"Letter's name : SAD, deeper \"s\" than \"س\"."
 		}, 
 	"ض":{
 			"prononciation":"d",
-			"like-in":"~**d**olphin :dolphin:",
+			"like-in":"~dolphin",
 			"comment":"Letter's name : DAD, deeper \"d\" than \"د\"."
 		},
 	"ط":{
 			"prononciation":"t",
-			"like-in":"~**t**omato :tomato:",
+			"like-in":"~tomato",
 			"comment":"Letter's name : TAA, deeper \"t\" than \"ت\"."
 		}, 
 	"ظ":{
@@ -97,99 +97,257 @@
 		}, 
 	"ف":{
 			"prononciation":"f",
-			"like-in":"**f**rog :frog:",
+			"like-in":"frog",
 			"comment":""
 		}, 
 	"ق":{
 			"prononciation":"k",
-			"like-in":"**k**oala ::koala:",
+			"like-in":"koala",
 			"comment":"Deeper than \"ك\"."
 		},
 	"ك":{
 			"prononciation":"k",
-			"like-in":"**k**angaroo :kangaroo:",
+			"like-in":"kangaroo",
 			"comment":"Like an open \"k\"."
 		},
 	"ل":{
 			"prononciation":"l",
-			"like-in":"**l**izard :lizard: ",
+			"like-in":"lizard ",
 			"comment":""
 		},
 	"م":{
 			"prononciation":"m",
-			"like-in":"**m**onkey <:Amine:830819862846767155> ",
+			"like-in":"monkey <:Amine:830819862846767155> ",
 			"comment":""
 		},
 	"ن":{
 			"prononciation":"n",
-			"like-in":"**n**inja :ninja:  ",
+			"like-in":"ninja  ",
 			"comment":""
 		},
 	"ه":{
 			"prononciation":"h",
-			"like-in":"**h**am :meat_on_bone:",
+			"like-in":"ham",
 			"comment":"(could not find a better emote :/)"
 		},
 	"و":{
 			"prononciation":"wa",
-			"like-in":"**wa**ffle :waffle:",
+			"like-in":"waffle",
 			"comment":""
 		},
 	"ي":{
 			"prononciation":"ya",
-			"like-in":"**ya**rn :yarn:",
+			"like-in":"yarn",
 			"comment":""
 		}
 },
 "ko":{
-	"ㅏ":"a", 
-	"ㅑ":"ya", 
-	"ㅘ":"wa",
+	"ㅏ":{
+			"prononciation":"a",
+			"like-in":"apple",
+			"comment":""
+		},
+	"ㅑ":{
+			"prononciation":"ya",
+			"like-in":"yarn",
+			"comment":""
+		}, 
+	"ㅘ":{
+			"prononciation":"wa",
+			"like-in":"watermelon",
+			"comment":""
+		}, 
+	"ㅓ":{
+			"prononciation":"eo",
+			"like-in":"The \"o\" of before",
+			"comment":""
+		},  
+	"ㅕ":{
+			"prononciation":"yeo",
+			"like-in":"",
+			"comment":""
+		},
+	"ㅝ":{
+			"prononciation":"weo",
+			"like-in":"watermelon",
+			"comment":""
+		},
 
-	"ㅓ":"eo", 
-	"ㅕ":"yeo",
-	"ㅝ":"weo",
-
-	"ㅗ":"o", 
-	"ㅛ":"yo",
+	"ㅗ":{
+			"prononciation":"o",
+			"like-in":"more",
+			"comment":""
+		},
+	"ㅛ":{
+			"prononciation":"yo",
+			"like-in":"yoyo",
+			"comment":""
+		},
 	
-	"ㅜ":"ou", 
-	"ㅠ":"you",
+	"ㅜ":{
+			"prononciation":"ou",
+			"like-in":"The \"ou\" in you",
+			"comment":""
+		},  
+	"ㅠ":{
+			"prononciation":"you",
+			"like-in":"you",
+			"comment":""
+		},
 	
-	"ㅡ":"eu",
-	"ㅣ":"i",
-	"ㅚ":"wè",
-	"ㅟ":"wi",
+	"ㅡ":{
+			"prononciation":"eu",
+			"like-in":"bird",
+			"comment":""
+		}, 
+	"ㅣ":{
+			"prononciation":"i",
+			"like-in":"see",
+			"comment":""
+		}, 
+	"ㅚ":{
+			"prononciation":"we",
+			"like-in":"",
+			"comment":""
+		}, 
+	"ㅟ":{
+			"prononciation":"wi",
+			"like-in":"win",
+			"comment":""
+		}, 
 
-	"ㅢ":"eui",
+	"ㅢ":{
+			"prononciation":"eui",
+			"like-in":"Combination of 'eu' and 'i'",
+			"comment":""
+		}, 
 
-	"ㅐ":"è", 
-	"ㅒ":"yè", 
-	"ㅙ":"wè",
+	"ㅐ":{
+			"prononciation":"ai",
+			"like-in":"'ai' of wait",
+			"comment":""
+		},  
+	"ㅒ":{
+			"prononciation":"yé",
+			"like-in":"Concatenation of 'y' and 'é' from café",
+			"comment":""
+		}, 
+	"ㅙ":{
+			"prononciation":"wai",
+			"like-in":"wait",
+			"comment":""
+		}, 
 
-	"ㅔ":"è", 
-	"ㅖ":"yè", 
-	"ㅞ": "wè",
-	
-	"ᄀ":"g",
-	"ᄁ":"k",
-	"ᄏ":"k",
-	"ᄂ":"n",
-	"ᄃ":"d,t", 
-	"ᄄ":"tt", 
-	"ᄐ":"tch",
-	"ㄹ":"r,l",
-	"ㅁ":"m",
-	"ㅂ":"b", 
-	"ㅃ":"pp", 
-	"ㅍ":"p",
-	"ㅅ":"s", 
-	"ㅆ":"ss",
-	"ㅇ":"No sound, ng",
-	"ㅈ":"j", 
-	"ㅉ":"jj", 
-	"ㅊ":"ch",
-	"ㅎ":"h"
+	"ㅔ":{
+			"prononciation":"ai",
+			"like-in":"'ai' of wait",
+			"comment":""
+		}, 
+	"ㅖ":{
+			"prononciation":"yé",
+			"like-in":"Concatenation of 'y' and 'é' from café",
+			"comment":""
+		},
+	"ㅞ": {
+			"prononciation":"wai",
+			"like-in":"wait",
+			"comment":""
+		},
+	"ᄀ":{
+			"prononciation":"g",
+			"like-in":"garlic",
+			"comment":""
+		}, 
+	"ᄁ":{
+			"prononciation":"k",
+			"like-in":"Karate",
+			"comment":""
+		}, 
+	"ᄏ":{
+			"prononciation":"k",
+			"like-in":"Karate",
+			"comment":""
+		},  
+	"ᄂ":{
+			"prononciation":"n",
+			"like-in":"nose",
+			"comment":""
+		},
+	"ᄃ":{
+			"prononciation":"d/t",
+			"like-in":"dorm",
+			"comment":"Sound between 'd' and 't'"
+		},
+	"ᄄ":{
+			"prononciation":"t",
+			"like-in":"table",
+			"comment":"Hard 't'"
+		}, 
+	"ᄐ":{
+			"prononciation":"tch",
+			"like-in":"match",
+			"comment":""
+		}, 
+	"ㄹ":{
+			"prononciation":"r/l",
+			"like-in":"Rattlesnake",
+			"comment":"Sound between 'r' and 'l'"
+		},
+	"ㅁ":{
+			"prononciation":"m",
+			"like-in":"mouth",
+			"comment":""
+		}, 
+	"ㅂ":{
+			"prononciation":"b",
+			"like-in":"bucket",
+			"comment":""
+		},  
+	"ㅃ":{
+			"prononciation":"p",
+			"like-in":"soap",
+			"comment":"Hard 'p'"
+		}, 
+	"ㅍ":{
+			"prononciation":"p",
+			"like-in":"part 2",
+			"comment":"Also used to comunicate the 'f' sound in other languages"
+		}, 
+	"ㅅ":{
+			"prononciation":"s",
+			"like-in":"share",
+			"comment":"Between 's' and 'ch'"
+		}, 
+	"ㅆ":{
+			"prononciation":"ss",
+			"like-in":"sample",
+			"comment":""
+		},
+	"ㅇ":{
+			"prononciation":"No sound/ng",
+			"like-in":"Preparing",
+			"comment":"Only pronounced if at the end of syllables"
+		}, 
+	"ㅈ":{
+			"prononciation":"j",
+			"like-in":"major",
+			"comment":""
+		},
+	"ㅉ":{
+			"prononciation":"jj",
+			"like-in":"jump",
+			"comment":"Hard 'j'"
+		},
+	"ㅊ":{
+			"prononciation":"ch",
+			"like-in":"sharp",
+			"comment":""
+		},
+	"ㅎ":{
+			"prononciation":"h",
+			"like-in":"hat",
+			"comment":""
+		}
 },
 "ru":{
 	"А":"a",

@@ -38,20 +38,20 @@ async def alphabet(ctx, *args):
 		await ctx.channel.send(proper_usage_alphabet(alphabets)); return
 
 	selected_alphabet = alphabets[lang_code]
-	file_to_send = dump_alphabet_data_in_markdown_string( selected_alphabet )
+	alphabet_data = dump_alphabet_data_in_string( selected_alphabet )
 
-	put_in_file( lang_code, file_to_send )
+	filename = put_in_file( lang_code, alphabet_data )
 
-	await ctx.channel.send( file=discord.File("/tmp/alphabet_ar.txt") )
+	await ctx.channel.send( file=discord.File(filename) )
 
 
-def dump_alphabet_data_in_markdown_string( alphabet ):
+def dump_alphabet_data_in_string( alphabet ):
 	like_in_padding = 25
-	string = f"{'Letter'} | {'Prononciation'} | {'Like in the word':^24} | {'Comment'}"
+	string = f"{'Letter'} | {'Prononciation'} | {'Like in':^30} | {'Comment'}"
 	for letter in alphabet:
 		string += f"\n {letter:^5} | "
 		string += f"{alphabet[letter]['prononciation']:^13} | "
-		string += f"{alphabet[letter]['like-in']:^24}"
+		string += f"{alphabet[letter]['like-in']:^30}"
 		if( alphabet[letter]['comment'] != ""):
 			string += f" | {alphabet[letter]['comment']}"
 	return string
@@ -61,3 +61,4 @@ def put_in_file( lang_code, text ):
 	with open( filename, "w") as f:
 		f.write( text )
 	print(f"\t[+]{{Alphabet}}File created: [ {filename} ]")
+	return filename
