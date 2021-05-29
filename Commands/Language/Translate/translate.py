@@ -3,13 +3,15 @@ from Loader.bot_loader import bot
 from Loader.emoji_loader import EMOJI_FORBIDEN
 
 import requests
-import json
+import json, time
 
 def proper_usage_translate():
 	return f"> {EMOJI_FORBIDEN} Wrong usage {EMOJI_FORBIDEN}.\n\
 			 > Usage: $translate <Stuff to translate>"
 
-TRANSLATE_API_URL = "https://libretranslate.com/translate"
+#TRANSLATE_API_URL = "https://libretranslate.com/translate"
+TRANSLATE_API_URL = "http://localhost:5000/translate"
+
 LANGUAGES = {
 	"fr":":flag_fr:",
 	"en":":flag_gb:",
@@ -20,7 +22,7 @@ LANGUAGES = {
 
 @bot.command(
 	name="translate",
-	help=f"Used to translate French words (or sentences) to multiple languages.\n\
+	help=f"Used to translate English words (or sentences) to multiple languages.\n\
 \tSupported languages: fr, en, ar, ru, kr.",
 	brief="Translate French words/sentences to English(en), Arabic(ar), Russian(ru), Korean(ko)."
 )
@@ -29,14 +31,14 @@ async def translate(ctx, *args):
 		await ctx.channel.send( proper_usage_translate() ); return
 
 	to_tranlate = " ".join(arg for arg in args)
-	source_code = "fr"
-	print(f"Translating from [French] : [{to_tranlate}]")
+	source_code = "en"
+	print(f"Translating from [English] : [{to_tranlate}]")
 	
-	answer = f"Translating [**{to_tranlate}**] from French {LANGUAGES[source_code]}:\n"
+	answer = f"Translating [**{to_tranlate}**] from English {LANGUAGES[source_code]} :\n"
 	for target_code in LANGUAGES:
 		if target_code == source_code:
 			continue # Do not translate in the same language
-		translated =  translate_source_target( source_code, target_code, to_tranlate)
+		translated = translate_source_target( source_code, target_code, to_tranlate)
 		answer += f"> {LANGUAGES[target_code]} **{target_code.upper():^4}**\t|\t{translated:^20}\n"
 
 	await ctx.channel.send( answer )
@@ -52,6 +54,7 @@ def translate_source_target( source_code, target_code, to_tranlate ):
 	response = requests.post( TRANSLATE_API_URL, data=body )
 
 	json_answer = json.loads( response.text )
+	#print(f"\tJSON FOUND: {json_answer}")
 	translated = json_answer["translatedText"]
 	print( "\t" + translated)
 	return u"{0}".format(translated)
