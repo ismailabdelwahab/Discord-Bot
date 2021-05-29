@@ -1,0 +1,4 @@
+Goto LibreTranslate/ folder and execute:
+  $ pip install -e .
+
+This will install the required packages for libretranslate
